@@ -1,16 +1,37 @@
-# Audio Blog
+# Module 1 Group Assignment
 
-App Link: https://imgaler.herokuapp.com/
+CSCI 5117, Spring 2022, [assignment description](https://canvas.umn.edu/courses/291031/pages/project-1)
 
+## App Info:
+
+* Team Name: SnowyOwl
+* App Name: Voice Blog
+* App Link: https://imgaler.herokuapp.com/
+* Note: The final version code is on branch: release
+
+### Students
+
+* Zhou Zhuang, zhuan156@umn.edu
+* Ke Wang, wan00802@umn.edu
+* Haoyu Tan, tan00213@umn.edu
+* Ruijun Ni nee00011@umn.edu
+* Chi Zhang, zhan6052@umn.edu
 
 
 ## Key Features
 
+**Describe the most challenging features you implemented
+(one sentence per bullet, maximum 4 bullets):**
 
 * The CSS layout design. We tried our best to keep buttons of a audio in on the same horizontal line and make same bueatiful.
 * Record Audio and Store the Audio. We use Javascript format to transfer data to flask sever.
 * Audio Wave. Use javascript show the audio wave.
 
+## Testing Notes
+
+**Is there anything special we need to know in order to effectively test your app? (optional):**
+
+* ...
 
 
 ## Screenshots of Site
@@ -40,6 +61,7 @@ Users can choose whether they want to share the “Voice Post” publicly.
 
 
 
+
 1. Home Page
 
 Users can search for an audio blogs in the home page.
@@ -60,11 +82,18 @@ Users can search for an audio blogs in the home page.
 
 
 
+
 ## External Dependencies
 
 **Document integrations with 3rd Party code or services here.
-
+Please do not document required libraries. or libraries that are mentioned in the product requirements**
 
 * Library or service name: description of use
 * Auth0: We use auth0 for login.
 * unpkg.com/wavesurfer.js(https://wavesurfer-js.org/): use it for displaying the sound waves.
+
+**If there's anything else you would like to disclose about how your project
+relied on external code, expertise, or anything else, please disclose that
+here:**
+
+... We learned and borrowed the external code about how to recrod audio and display sound waves. Then, we change these code a little bit to fit our template.
